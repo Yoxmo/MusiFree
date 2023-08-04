@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 import UIKit
 import AVFoundation
 
@@ -125,10 +117,10 @@ class MusicPlayerViewController: UIViewController {
             if currentSong != nil {
                 
                 soundPlayer.play()
-                print("播放器目前暫停，按下播放按鈕")
+                print("The player is currently paused, press the play button")
             } else {
                 
-                print("未有播放歌曲，播放歌曲清單中的歌曲")
+                print("There is no song playing, play the song in the song list")
                 playSong(song: songs[currentSongIndex])
             }
 
@@ -137,7 +129,7 @@ class MusicPlayerViewController: UIViewController {
 
         
         case .playing:
-            print("播放器目前正在播放，按下暫停按鈕")
+            print("The player is currently playing, press the pause button")
             
             soundPlayer.pause()
             
@@ -181,15 +173,15 @@ class MusicPlayerViewController: UIViewController {
         case .random:
             playMode = .singleRepeat
             sender.setImage(UIImage(systemName: "repeat.1"), for: .normal)
-            print("目前是單曲循環模式")
+             print("Currently in normal random mode")
         case .singleRepeat:
             playMode = .sequential
             sender.setImage(UIImage(systemName: "repeat"), for: .normal)
-            print("目前是一般播放模式")
+           print("Currently in normal playback mode")
         case .sequential:
             playMode = .random
             sender.setImage(UIImage(systemName: "shuffle"), for: .normal)
-            print("目前是隨機播放模式")
+            print("Currently in shuffle mode")
         }
     }
 
@@ -297,7 +289,7 @@ class MusicPlayerViewController: UIViewController {
         }
 
         playSong(song: songs[currentSongIndex])
-        print("當前歌曲播放完畢，自動播放下一首")
+       print("The current song is played, the next one will be played automatically")
     }
 
 
