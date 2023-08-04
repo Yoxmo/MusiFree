@@ -1,6 +1,6 @@
 # Welcome to MusiFree
 
-> Description:
+> <b> Description <b>:
 >   MusiFree is an open-source music streaming app that brings the joy of music to your fingertips, all without costing you a dime. It provides a user-friendly platform for discovering, streaming, and sharing your favorite tunes with a vast collection of songs from various genres and artists.
 
 Features:
