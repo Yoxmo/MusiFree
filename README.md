@@ -3,6 +3,10 @@
 
   MusiFree is an open-source music streaming app that brings the joy of music to your fingertips, all without costing you a dime. It provides a user-friendly platform for discovering, streaming, and sharing your favorite tunes with a vast collection of songs from various genres and artists.
 
+> <b> Common Errors & How to start:
+>
+> ![how to use](https://github.com/Yoxmo/MusiFree/assets/94254616/b877b56b-63ad-48ee-b5a2-3d7a6ffb817d)
+
 > <b> Features: </b>
 
   Free Music Streaming: Enjoy unlimited access to a diverse library of songs without any subscription fees or hidden costs. Stream your favorite tracks seamlessly and create custom playlists to suit your mood.
